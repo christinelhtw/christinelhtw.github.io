@@ -6,39 +6,77 @@
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            text-align: center;
             margin: 0;
             padding: 0;
             background-color: #ffccdd;
-            background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F26-free-pink-flower-background-patterns-and-digital-papers--852024823228490980%2F&psig=AOvVaw3xYDQl6i6vZEpiZuQayMlS&ust=1748459120720000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPDyl_qrxI0DFQAAAAAdAAAAABAE'); /* Bright pink pattern */
+            background-image: url('https://images.unsplash.com/photo-1617302540596-123c52bb1e34?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60');
             background-repeat: repeat;
-            background-size: 200px;
+            background-size: cover;
         }
 
-        .content {
-            background-color: rgba(255, 255, 255, 0.9);
-            margin: 100px auto;
-            padding: 40px;
-            max-width: 600px;
-            border-radius: 20px;
-            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        header {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
 
-        h1 {
+        header h1 {
+            margin: 0;
             color: #c2185b;
             font-size: 2.5em;
         }
 
-        p {
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #c2185b;
+            font-weight: bold;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+
+        .content {
+            background-color: rgba(255, 255, 255, 0.9);
+            margin: 60px auto;
+            padding: 40px;
+            max-width: 700px;
+            border-radius: 20px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+
+        .content p {
             font-size: 18px;
             color: #444;
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9em;
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Welcome to Christine's Website</h1>
+        <nav>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
     <div class="content">
-        <h1>Welcome to Christine's website</h1>
-        <p>This is my first webpage, now with a brighter pink patterned background!</p>
+        <p>Hello and welcome! I'm Christine, and this is my very first webpage. I created this site to learn and share more about myself, my projects, and things I enjoy. Click around to explore more!</p>
     </div>
+
+    <footer>
+        © 2025 Christine | Designed with 🌸 and a lot of learning!
+    </footer>
 </body>
 </html>
